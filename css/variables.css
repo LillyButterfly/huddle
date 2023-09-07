@@ -1,0 +1,9 @@
+:root {
+    --bg-color: hsl(257, 40%, 49%);
+    --primary-color: hsl(300, 69%, 71%);
+    --secondary-color: white;
+    --bg-image: url(../src/images/bg-desktop.svg);
+    --bg-img-mobile: url(../src/images/bg-mobile.svg);
+    --primary-font: 'Poppins', sans-serif;
+    --secondary-font: 'Open Sans', sans-serif;
+}

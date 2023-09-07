@@ -1,0 +1,83 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background: var(--bg-color) var(--bg-image) no-repeat;
+    background-size: cover;
+    color: var(--secondary-color);
+    font-family: var(--primary-font);
+}
+
+.header {
+    margin: 45px 0 80px 60px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.container .title{
+    font-size: 3.6rem;
+    max-width: 450px;
+    font-weight: 600;
+    margin: 40px 0 30px 0;
+}
+
+.container .text{
+   max-width: 580px;
+   font: 400 2rem var(--secondary-font);
+   margin-bottom: 25px;
+}
+
+.container .text, .btn-register{
+    font-size: 2rem;
+    line-height: 3.2rem;
+}
+
+.container .btn-register{
+    width: 200px;
+    border-radius: 50px;
+    padding: 12px;
+    background-color: var(--secondary-color);
+    color: var(--bg-color);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.container .btn-register:hover{
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    transition: 0.3s;
+}
+
+.footer .footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    gap: 50px;
+    align-items: center;
+    margin: 30px 150px;
+}
+
+.footer .footer-container .attribution {
+    font-size: 1.6rem; 
+}
+
+.footer .footer-container .attribution a{
+    color: var(--secondary-color);
+    padding: 0 10px;
+}
+
+.footer .footer-container .attribution a:hover {
+    color: var(--primary-color); 
+}
+
+.footer-container .social-media  a>svg:hover path{
+    fill: var(--primary-color);
+    transition: 0.3s;
+}
+
