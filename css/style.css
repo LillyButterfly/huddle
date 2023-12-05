@@ -3,6 +3,7 @@ html{
 }
 
 body{
+    max-width: 1440px;
     background: var(--bg-color) var(--bg-image) no-repeat;
     background-size: cover;
     color: var(--secondary-color);
@@ -74,6 +75,10 @@ body{
 
 .footer .footer-container .attribution a:hover {
     color: var(--primary-color); 
+}
+
+.footer-container .social-media ul{
+    display: flex;
 }
 
 .footer-container .social-media  a>svg:hover path{
